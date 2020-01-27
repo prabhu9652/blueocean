@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Master Branch Build') { 
             steps {
-                // 
+                sh 'echo Building.........!!' 
             }
         }
         stage('Master Branch Test') { 
             steps {
-                // 
+                 sh 'echo Building.........!!' 
             }
         }
         stage('Master Branch Deploy') { 
             steps {
-                // 
+                  sh 'echo Building.........!!' 
             }
         }
     }
