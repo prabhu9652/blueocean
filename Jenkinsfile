@@ -1,17 +1,17 @@
 pipeline {
     agent any 
     stages {
-        stage('Master Branch Build') { 
+        stage('prod Branch Build') { 
             steps {
                 // 
             }
         }
-        stage('Master Branch Test') { 
+        stage('prod Branch Test') { 
             steps {
                 // 
             }
         }
-        stage('Master Branch Deploy') { 
+        stage('prod Branch Deploy') { 
             steps {
                 // 
             }
